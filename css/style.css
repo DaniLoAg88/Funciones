@@ -1,0 +1,30 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    background-color: grey;
+    margin: auto;
+}
+
+img{
+    width: 300px;
+}
+
+.menu{
+    background-color: blue;
+    
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+    height: 20px;
+    background: linear-gradient(90deg, rgba(235, 61, 13, 1) 0%, rgba(255, 132, 0, 1) 25%, rgba(241, 184, 10, 1) 50%, rgba(233, 224, 18, 1) 75%, rgba(141, 226, 60, 1) 100%);
+}
