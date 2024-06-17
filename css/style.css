@@ -4,6 +4,48 @@
     box-sizing: border-box;
 }
 
+#nav{
+    background-color: #A63E49;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#menu li{
+    margin: 25px;
+    display: inline;
+    padding: 50px 20px;
+}
+
+#menu li a{
+    text-decoration: none; /* Para quitar la decoración de los enlaces, ya que será menú */
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+#menu li a:hover{ /* Cuando pones el ratón encima */
+    color: darkgray;
+    text-decoration: underline;
+}
+
+#nav img{
+    width: 2.5%;
+    float: left;
+    padding-left: 20%;
+    padding-top: 1%;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -25,12 +67,3 @@ hr{
     background: linear-gradient(90deg, rgba(235, 61, 13, 1) 0%, rgba(255, 132, 0, 1) 25%, rgba(241, 184, 10, 1) 50%, rgba(233, 224, 18, 1) 75%, rgba(141, 226, 60, 1) 100%);
 }
 
-#nav{
-    background-color: #A63E49;
-    width: 100%;
-}
-
-.menu{
-    background-color: blue;
-    
-}
